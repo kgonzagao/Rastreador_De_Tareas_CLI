@@ -1,7 +1,6 @@
 package com.example.controller;
 
 import java.nio.file.Path;
-import java.util.List;
 
 import com.example.model.Tarea;
 
@@ -15,6 +14,6 @@ public interface ITarea {
 
     public void guardarTareas(Path URL_FILE);
 
-    public List<Tarea> listaTareas();
+    public void listarTareas(String tipo);
 
 }

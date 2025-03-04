@@ -62,6 +62,15 @@ public class TareaImpl implements ITarea {
         }
     }
 
+    public void listarTareas(String tipo){
+        for (Tarea tarea : tareas){
+            String estado = tarea.getEstadoTarea().toString().strip();
+            if (tipo.equals("todo") || estado.equals(tipo)){
+                System.out.println(tarea.toString());
+            }
+        }
+    }
+
     @Override
     public void agregarTarea(Tarea tareaNueva) {
         Optional<Tarea> tareaOpt = tareas.stream()
@@ -110,10 +119,4 @@ public class TareaImpl implements ITarea {
             System.out.println("La Tarea con id: "+tareaEliminar.getIdTarea()+", no existe");
         }
     }
-
-    @Override
-    public List<Tarea> listaTareas(){
-        return this.tareas;
-    };
-
 }
