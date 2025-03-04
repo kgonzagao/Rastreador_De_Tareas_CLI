@@ -1,4 +1,6 @@
 [
 {"idTarea":"1", "description":"Correr", "estadoTarea":"Por Hacer", "fechaCreacion":"2025-03-03T21:17:43.4661456", "fechaActualizada":"2025-03-03T21:17:43.475128"},
-{"idTarea":"2", "description":"Nadar", "estadoTarea":"Por Hacer", "fechaCreacion":"2025-03-03T21:17:43.475128", "fechaActualizada":"2025-03-03T21:17:43.4812564"}
+{"idTarea":"2", "description":"Nadar", "estadoTarea":"Por Hacer", "fechaCreacion":"2025-03-03T21:17:43.475128", "fechaActualizada":"2025-03-03T21:17:43.4812564"},
+{"idTarea":"3", "description":"jugar a la play", "estadoTarea":"Por Hacer", "fechaCreacion":"2025-03-03T22:41:27.3846794", "fechaActualizada":"2025-03-03T22:41:27.3846794"},
+{"idTarea":"4", "description":"estudiar python para el examen", "estadoTarea":"Por Hacer", "fechaCreacion":"2025-03-03T22:42:05.8847986", "fechaActualizada":"2025-03-03T22:42:05.8847986"}
 ]
