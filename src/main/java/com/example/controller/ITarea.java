@@ -1,17 +1,20 @@
 package com.example.controller;
 
+import java.nio.file.Path;
 import java.util.List;
 
 import com.example.model.Tarea;
 
 public interface ITarea {
 
-    void agregarTarea(Tarea tareaNueva);
+    public void agregarTarea(Tarea tareaNueva);
 
-    void editarTarea(Tarea tareaEditar);
+    public void editarTarea(Tarea tareaEditar);
 
-    void eliminarTarea(Tarea tareaEliminar);
+    public void eliminarTarea(Tarea tareaEliminar);
 
-    List<Tarea> Tareas();
+    public void guardarTareas(Path URL_FILE);
+
+    public List<Tarea> listaTareas();
 
 }
