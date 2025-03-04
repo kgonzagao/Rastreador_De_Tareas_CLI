@@ -22,5 +22,8 @@ La información sobre las tareas se guarda en un archivo JSON, lo que permite qu
 - Java 8 o superior
 - Acceso a la terminal o consola de comandos
 
+## Licencia
+Este proyecto esta licenciado bajo https://www.apache.org/licenses/LICENSE-2.0
+
 ##
 - Este proyecto es una practica realizada por la pagina roadmap.sh **link:** https://roadmap.sh/projects/task-tracker
