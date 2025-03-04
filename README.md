@@ -21,3 +21,6 @@ La información sobre las tareas se guarda en un archivo JSON, lo que permite qu
 
 - Java 8 o superior
 - Acceso a la terminal o consola de comandos
+
+##
+- Este proyecto es una practica realizada por la pagina roadmap.sh **link:** https://roadmap.sh/projects/task-tracker
